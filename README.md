@@ -1,17 +1,59 @@
-# stock_signal_app
+# Stocks
 
-A new Flutter project.
+## 개발능력을 활용하여 주식투자를 잘해보자. 👏
 
-## Getting Started
+## Description
 
-This project is a starting point for a Flutter application.
+주식 도우미 개발 프로젝트를 시작하며.
 
-A few resources to get you started if this is your first Flutter project:
+투자를 잘해서 자산을 증식하려면 결국 투자 공부를 열심히 해야 한다.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+하지만 개발자라서 투자를 좀 더 신뢰도 있고 정확하게 할 방법이 있다
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+바로 과거의 데이터를 가지고 미래를 예상해볼 수 있는 능력이다.
+
+투자 기법을 백테스트하거나,
+
+“과거에는 주가가 이런 식으로 움직였다”는 근거를 통해
+
+근 미래의 가격을 예상하고 매수/매도 시점을 정할 수 있는 것이다.
+
+여기서 주의할 것은 어디까지나 예측일 뿐이라는 것이다
+
+100%는 없다.
+
+하지만 원래 주식투자는 확신을 가지는 것이 아닌 비교적 확률이 높은 곳에 베팅하는 싸움이라는 것이다.
+
+확신을 가지는 순간 투자의 세계에서는 아주 위험하다는 신호이다 (그런 면에서 주식 투자에서 가장 중요한 건 위험관리라는 말이 있다.)
+
+한편, 데이터를 가지고 비교적 높은 확률을 가늠할 수 있는 데이터 전문가나 개발자와 결이 비슷하다고 생각한다.
+
+그렇다면 개발자로서의 능력을 투자에 십분 활용하는 게 마땅하다고 생각한다.
+
+아래는 프로젝트의 핵심 기능이다..
+
+1. 주식 가격 예측
+```
+시계열 데이터를 활용하면, 주식 가격을 예측하거나, 추세 판단을 할 수 있음.
+
+cf) 강남도토리 님의 투자 분석 플랫폼: https://dotoriinvest.com/
+```
+
+2. 주식 투자 기법 백테스트
+
+```
+역추세 기법
+
+래리 코너스의 rsi4 전략
+bnf 이격도 매매
+```
+```
+추세추종 기법
+
+터틀 트레이더의 추세추종 기법
+제시 리버모어의 투자 기법
+... (추가 예정)
+```
+
+### Blog.
+https://jaychoi6.wordpress.com/2025/12/21/%ec%a3%bc%ec%8b%9d%eb%8f%84%ec%9a%b0%eb%af%b8-%ea%b0%9c%eb%b0%9c-%ed%94%84%eb%a1%9c%ec%a0%9d%ed%8a%b8/
